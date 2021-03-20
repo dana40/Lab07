@@ -76,7 +76,7 @@ ggplot(Whickham, aes(x = age)) +geom_boxplot()
 ```{r plot_smokeVSincome_1}
 ggplot(data=Whickham, aes(x=smoker, y=outcome, color=outcome)) + geom_bar(stat="identity")
 ```
-
+The abbreviation of this study is that fewer smokers died than non-smokers
 Knit, commit, and push to github.
 
 5. 
@@ -87,7 +87,9 @@ Whickham %>%
  502+230
  230/732
 ```
-
+smoker no  (732) :   31,4 (dead) >> (68,6) alive
+smoker yes (582) :   23,8 (dead) >> (76,2) alive
+The abbreviation of this study is that fewer smokers died than non-smokers
 6.
 
 ```{r age_cat}
